@@ -32,7 +32,7 @@ export default class FullList implements List {
 			FullList.instance.addItem(newListItem);
 		})
 	}
-
+	
 	save(): void {
 		localStorage.setItem("myList", JSON.stringify(this._list))
 	}
