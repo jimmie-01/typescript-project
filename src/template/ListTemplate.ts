@@ -21,6 +21,8 @@ export default class ListTemplate implements DOMList {
 	render(fullList: FullList): void {
 		this.clear()
 
-		fullList
+		fullList.list.forEach(item => {
+			
+		})
 	}
 }
